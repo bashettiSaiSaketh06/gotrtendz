@@ -1,0 +1,427 @@
+.logo
+    {
+        height: 70px;
+        width: 70px;
+        margin-left: 20px;
+        margin-top: 3px;
+        align-items: center;
+    }
+.block
+    {
+
+        width: 100%;
+        height: 100%;
+    }
+.headerName
+    {
+        position: absolute;
+        top: 20px;
+        left: 600px;
+        font-size: 40px;
+        border: 0px solid;
+        width: 200px;
+        text-align: center;
+        font-style: italic;
+    }
+.homeTab
+    {
+        position: absolute;
+        top: 80px;
+        left: 250px;
+        font-size: 20px;
+        border: 0px solid;
+        width: 200px;
+        text-align: center;
+        text-decoration: none;
+    }
+.productTab
+    {
+        position: absolute;
+        top: 80px;
+        left: 450px;
+        font-size: 20px;
+        width: 200px;
+        border: 0px solid;
+        text-align: center;
+        text-decoration: none;
+    }
+.aboutUsTab
+    {
+        position: absolute;
+        top: 80px;
+        left: 650px;
+        font-size: 20px;
+        border: 0px solid;
+        text-align: center;
+        width: 200px;
+        text-decoration: none;
+    }
+.contactUsTab
+    {
+        position: absolute;
+        top: 80px;
+        left: 850px;
+        font-size: 20px;
+        border: 0px solid;
+        text-align: center;
+        width: 200px;
+        text-decoration: none;
+    }
+/* .loginTab
+    {
+        position: absolute;
+        top: 80px;
+        left: 1050px;
+        font-size: 20px;
+        border: 0px solid;
+        text-align: center;
+        width: 200px;
+        text-decoration: none;
+    } */
+
+    /* ------------ Login ----------------- */
+    /* .popupContainer {
+        position: absolute;
+        background-color: #fff;
+        width: 500px;
+        height: 250px;
+        border: 2px solid;
+        border-radius: 10px;
+        top: 30%;
+        left: 25%;
+        display:none;
+    }
+        
+    .headerBar {
+        padding: 5px;
+        border-bottom: 1px solid;
+        text-align: center;
+    }
+
+    .closeBtn {
+        font-weight: bold;
+        float: right;
+        cursor: pointer;
+    }
+    .closeBtn:hover {
+        color: #fff;
+    }
+    .maskContainer {
+        position: absolute;
+        top: 5px;
+        left: 5px;
+        right: 5px;
+        bottom: 5px;
+        background-color: red;
+        display: none;
+        opacity: 0;
+    }
+    /* -----------Login----------- */
+
+    /* .userName, .password, .submit, .signUp{
+        text-align: center;
+        margin: 20px;
+    } */ 
+
+    /* ----------------body start-------------------- */
+    
+    .mySlides
+    {
+        border: 1px solid;
+        height: 300px;
+        width: 100%;
+        vertical-align:top;
+        margin-bottom: 5px;
+        margin-top: 5px;
+    }
+    
+    
+    .aboutBlock1
+        {
+            border: 1px solid;
+            width: 49%;
+            height: 250px;
+            position: absolute;
+            float: left; 
+            text-align: center;  
+            clear: both;     
+        }
+    .image{
+        border: 0px solid black;
+        width: 70%;
+        height: 250px;
+    }
+    .aboutBlock2
+        {
+            border: 1px solid;
+            width: 50%;
+            height: 250px;
+            position: relative;
+            float: right;
+            text-align: center;
+            clear: both;
+        }
+    .productsBlock
+        {
+            border: 1px solid red;
+            height: 180px;
+            width: 100%;
+            position: relative;
+            float: left;
+            margin-top: 3px;
+            margin-bottom: 3px;
+            overflow:auto;
+            overflow-x: hidden;
+            overflow-y: hidden;
+        }
+    .Products
+    {
+        border: 1px solid blue;
+        height: 175px;
+        width: 140px;
+        margin: 1px;
+        float: left;
+    }
+    .homePageProductImage
+    {
+        border: 1px solid;
+        height: 130px;
+        width: 130px;
+        margin: 2px;
+    }
+    .imageBlock
+    {
+        border: 1px solid blue;
+        height: 500px;
+        width: 100%;
+        position: relative;
+        clear: both;
+        margin-top: 3px;
+        text-align: center;
+    }
+    .poster
+    {
+        height: 499px;
+        width: 100%;
+    }
+    .news
+    {
+        border: 1px solid violet;
+        width: 100%;
+        height: 200px;
+        text-align: center;
+        margin-top: 3px;
+        margin-bottom: 3px;
+    }
+    .CustomerReview
+    {
+        text-align: center;
+    }
+    .gallery
+    {
+        border: 1px solid blueviolet;
+        width: 100%;
+        height: 300px;
+        margin-top: 3px;
+        margin-top: 3px;
+    }
+    .galleryHead
+    {
+        text-align: center;
+        margin: 5px;
+        padding: 5px;
+    }
+    .galleryImages
+    {
+        height:100px;
+        width: 100px;
+        margin: 5px;
+    }
+
+    /* --------------footer---------------------- */
+    .footer
+        {
+            border: 1px solid greenyellow;
+            width: 100%;
+            height: 300px;
+        }
+
+    .footerGallery
+    {
+        border: 1px solid purple;
+        width: 25%;
+        height: 300px;
+        position: absolute;
+        float: left;
+        left: 70px;
+    }
+    .footerAboutUsBlock
+    {
+        border: 1px solid yellowgreen;
+        width: 25%;
+        height: 300px;
+        position: absolute;
+        left: 520px;
+    }
+    .footerHead
+    {
+        text-align: center;
+    }
+    .footerContactUs
+    {
+        border: 1px solid;
+        width: 25%;
+        height: 300px;
+        position: absolute;
+        right: 70px;
+    }
+    
+    .CopyRights
+        {
+            border: 1px solid;
+            text-align: center;
+            width: 100%;
+            height: 30px;
+            margin-top: 5px;
+        }
+
+
+        /* -------------------------------index page ------------------------------------------------------- */
+
+        .homePage_header
+        {
+            height: 100px;
+            width: 1350px;
+            background-color: skyblue;
+        }
+        
+        
+        .homePage_centerBlock
+        {
+            border: 0px solid;
+            width: 1350px;
+            height: 465px;
+            margin-top: 5px;
+            margin-bottom: 5px;
+            overflow-y: hidden;
+        }
+        .homePage_footer
+        {
+            border: 0px solid;
+            width: 100%;
+            height: 20px;
+            margin-bottom: 5px;
+            text-align: center;
+            background-color: skyblue;
+            bottom: 1px;
+            position: fixed;
+        }
+        .homePage_center_block1
+        {
+            border: 0px solid;
+            height: 100%;
+            width: 50%;
+            text-align: center;
+            float: left;
+        }
+        .homePage_block1_image
+        {
+            width: 365px; 
+            height: 363px;
+        }
+        .homePage_center_block2
+        {
+            border: 0px solid;
+            height: 100%;
+            width: 50%;
+            text-align: center;
+            float: right;
+        }
+        .homePage_login, .homePage_password ,.homePage_submit,.homePage_signup ,.homePage_forget
+        {
+            margin: 15px;
+            font-weight: bold;
+        }
+        .homePage_forget
+        {
+            display: block;
+        }
+        .forgetButton
+        {
+            margin-bottom: 0px;
+        }
+        .homePage_loginPageLogo
+        {
+            border: 0px solid;
+            height: 80px;
+            width: 80px;
+            margin-top: 5px;
+        }
+        .homePage_login_form
+        {
+            border: 0px solid;
+            height: 460px;
+            width: 672px;
+            position: absolute;
+            top: 80px;
+        }
+        .homePage_icons_size
+        {
+            height: 30px;
+            width: 30px;
+            margin-top: 20px;
+            margin-left: 5px;
+        }
+        .homePage_block1_tagline
+        {
+            font-size: 30px;
+            font-style: italic;
+        }
+        .homePage_tagline
+        {
+            font-size: 15px;
+            font-style: italic;
+        }
+        .signup_block
+        {
+            text-align: center;
+            display: none;
+        } 
+            .user,.password,.number,.email,.button
+            {
+                margin: 15px;
+            }
+            .tagline
+            {
+                font-size: 15px;
+                font-style: italic;
+            }
+          
+        
+        .Forgetpassword_block
+        {
+            text-align: center;
+            display: none;
+        }
+        
+        .Forgetpassword_forget
+        {
+            margin: 15px;
+        }
+        .page
+        {
+            display:none;
+        }
+        .login
+        {
+            display: block;
+        }
+        /* --------------------------------------------------------------------------- */
+        .aboutUs
+        {
+            border: 1px solid;
+            text-align: center;
+            width: 1333px;
+            height: 60px;
+        }
+            
